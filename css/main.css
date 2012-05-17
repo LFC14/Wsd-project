@@ -1,81 +1,61 @@
-h1{
+
+body{
+	font: 14px/1.5 "imprint mt shadow", Arial, helvetica, sans-serif;
+	max-width: 960px;
+	margin: 50px auto;
+	background: purple;
+}
+
+#wrapper{
+	width: 100%; /*960px*/
+	height: 0 auto;
+	background: ornage;
+	border: 3px solid black;
+	overflow: hidden;
+}
 	
+h1{
 	text-align: center;
-	color: purple;
-	width: 684px;
-	height: 50px;
+	width: 99.375%;
 	background-color: orange;
 	border: 3px solid yellow;
 	margin: 0 auto;
-	font-family: "apple chancery";
+	font-family:"apple chancery";
 	text-shadow: 2px 5px 2px white; 
-	
 }
 
+nav{
+	background-color: green;
+	width: 99.375%;
+	Border: 3px solid green;
+	float: left;
+	font-weight: bold;
+}
 
-body{
-	color: purple;
-	font-family: "imprint mt shadow", Arial, helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-	width: 690px;
-	margin: 0 auto;
-	background-color: purple;
-	padding: 50px;
-
+#button{
+	float: left;
 }
 
 img{
-	background-color: yellow;
 	border: 4px solid green;
-	width: 150px;
-	height: 200px;
+	width: 200px; /*200px/960px*/
+	overflow: clear;
 	float: left;
-
-
 }
 
 h4{
 	font-family: 'Diplomata SC', cursive, arial, helvetica, sans-serif;
-	text-align: left;
-	color: purple;
-	text-indent: 0px;
-
-	
+	color: purple;	
 }
 
-
-div{
-	-moz-column-count: 3;
-	width: 500px;
-	height: 350px;
+#bio{ 
 	background-color: orange;
-	margin: 0 auto;
-	padding: 10px;
-	border: 6px solid yellow;
-	text-align: left;
-	color: black; 
-	text-indent: 20px;
-
-}
-
-p{
-
-	opacity: 0.5;
+	width:100%;
+	height: 0 auto;
+	-moz-column-count: 3;
 }
 
 
-nav{
-	background-color: green;
-	width: 663px;
-	height: 51px;
-	Border: 3px solid green;
-	padding: 10px;
-	float: top-left;
-	margin: 0 auto;
-	font-weight: bold;
-	
-}
 
 button.css3button {
 	font-family: Arial, Helvetica, sans-serif;
