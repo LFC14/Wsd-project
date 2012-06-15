@@ -1,5 +1,6 @@
 body{
-	width: 1024px;
+	max-width: 100%;/*1024px*/
+	font-size: 100%;
 	margin: 0 auto;
 	background-image: url('../images/bg_resume.jpg');
 	background-color: #64b4f1;
@@ -8,121 +9,191 @@ body{
 
 
 h1 {
-	font-family: 'Waiting for the Sunrise', cursive;
-	margin-left: 100px;
-	text-shadow: 2px 2px #ff0000;
+	font-family:'Waiting for the Sunrise', cursive;
+	margin-left: 9.765625%;
+	text-shadow: 0.05em 0.05em #ff0000;
 }
 
 .main-nav {
-	width: 800px;
-	margin: auto;
-	background: #000000;
+	width: 78.125%;
+	margin: 0 auto;
+	background: navy;
 	overflow: hidden;
+	padding: 1.95312%;
 		
 }
 
 ul li {
-	width: 266px;
+	width: 31.125%;
 	background: #000000;
 	list-style-type: none;
-	font: 24px  cambria;
+	font: 1.5em cambria;
 	float: left;
  }
  
  .nav {
 	text-decoration: none;
-	background: #000000;
 	display: block;
-	height: 30px;
-	line-height: 30px;
+	height: 1.000em;
+	line-height: 1.000em;
 	text-align: center;
+	color: white;
+	background: navy;
 } 
 
 a:hover{
-	color: #000000;
-	background: white;
+	color: #ffffff;
+	font-size: 0.9375em;
 }
 
 a:visited{
-	color: #000000;
-	background: yellow;
+	color: silver;
 }
 
 a:active{
-	color: #000000;
-	background: orange;
+	color: #0099FF;
 }	
 
 .intro-paragraph {
-	width: 800px;
-	height: 400px;
+	width: 78.125%;
+	height: 39.0625%;
 	clear: both;
 	background-color: #0099FF;
 	margin: auto;
-	padding: 20px;
+	margin-bottom: 0;
+	padding: 1.95312%;
 	-moz-column-count: 3;
-	font: 24px cambria;
+	font: 1.500em cambria;
+	overflow: hidden;
 }
 
 .intro{
 	opacity: 0.5;
-
 }
 
 
 .career {
-	float: right;
-	clear: both;
 	border: 3px solid black;
-	margin: 20px auto;
+	width: 100%;
 }
 
 section{
-	width: 800px;
-	height: 900px;
+	width: 78.125%;
+	height: 48.828125%;
 	background-image: url("../images/bg_notepad.jpg");
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-color: #ffffff;
-	margin: 0 auto;
-	padding: 20px;
+	margin: auto;
+	padding: 1.95312%;
 	clear: both;
+	margin-top: 0;
+	
+	
 }
 
 h2{
-	font-family: 'Graduate', cursive;
+	font-family: 1.5em 'Graduate 'cursive;
+}
+
+.line-separator{
+
+height:1px;
+
+background:#717171;
+
+border-bottom:0.1em solid #313030;
 
 }
 
 .about li {
 	list-style-type: upper-roman;
 	background: #ffffff;
-	padding: 10px;
-	font: 24px cambria;
+	padding: 1.95312%;
+	font: 1.5em cambria;
 	float: left;
 	clear: both;
 }
 
 
 .gallery {
-	width: 800px;
+	width:78.125%;
 	overflow: hidden;
 	list-style-type: none;
-	margin: 20px auto;
+	margin: 0 auto;
 }
 
 .gallery li {
 	float: left;
-	width: 100px;
+	width: 12.5%;
 	height: 100px;
 	display: block;
-	border: 3px solid #000000;
+	border: 0.2em solid #000000;
 	overflow: hidden;
-	margin: 20px auto;
+	margin: 1.95312% 3.90625% auto;
+	
 }
 
 
-div{
+#sign-up{
 	clear: both;
 }
 
+
+input.groovybutton{
+   font-size:1.000em;
+   font-family:Arial,sans-serif;
+   height:46px;
+   background-color:#779999;
+   background-image:url(back03.gif);
+   border-style:solid;
+   border-color:#DDDDDD;
+   border-width:0.1em;
+   border-radius: 1em 4em 1em 4em;
+}
+
+
+
+/* =Media Queries==============================================================*/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and(min-width:768px)and(max-width:1023px){ 
+	.intro-paragraph{
+		font-size:1.000em;
+	}
+	.career{
+		float:none;
+	}
+	.gallery li {
+		margin: 0 auto;
+	}
+}
+
+	/* mobile landscape size to tablet portrait (devices and browsers) */
+	@media only screen and(min-width: 480px)and(max-width:767px){  
+	.career{
+		float:left;
+		}
+	.intro-paragraph{
+		font-size:1.000em;
+		}
+	.gallery li {
+		float: none;
+	
+	}
+	
+}
+
+	/* mobile portrait size to mobile landscape size (devices and browsers) */
+	@media only screen and(max-width:479px) */{ 
+	.career{
+		display:none;
+		}
+	.gallery li{
+		display: none;
+	}
+	section{
+		background-image: none;
+	}
+	
+} 
