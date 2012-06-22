@@ -7,7 +7,6 @@ body{
 	background-repeat: repeat-x;
 }
 
-
 h1 {
 	font-family:'Waiting for the Sunrise', cursive;
 	margin-left: 9.765625%;
@@ -19,8 +18,7 @@ h1 {
 	margin: 0 auto;
 	background: navy;
 	overflow: hidden;
-	padding: 1.95312%;
-		
+	padding: 1.95312%;		
 }
 
 ul li {
@@ -71,7 +69,6 @@ a:active{
 	opacity: 0.5;
 }
 
-
 .career {
 	border: 3px solid black;
 	width: 100%;
@@ -85,25 +82,21 @@ section{
 	background-position: right bottom;
 	background-color: #ffffff;
 	margin: auto;
+	margin-bottom: 0;
 	padding: 1.95312%;
 	clear: both;
 	margin-top: 0;
-	
-	
+	overflow: hidden;	
 }
 
 h2{
-	font-family: 1.5em 'Graduate 'cursive;
+	font-family: 'Graduate ', cursive;
 }
 
 .line-separator{
-
-height:1px;
-
-background:#717171;
-
-border-bottom:0.1em solid #313030;
-
+	height:1px;
+	background:#717171;
+	border-bottom:0.1em solid #313030;
 }
 
 .about li {
@@ -114,7 +107,6 @@ border-bottom:0.1em solid #313030;
 	float: left;
 	clear: both;
 }
-
 
 .gallery {
 	width:78.125%;
@@ -130,70 +122,139 @@ border-bottom:0.1em solid #313030;
 	display: block;
 	border: 0.2em solid #000000;
 	overflow: hidden;
-	margin: 1.95312% 3.90625% auto;
-	
+	margin: 1.95312% 3.90625% auto;	
 }
-
 
 #sign-up_form{
+	width: 78.125%;
+	background-color: white;
+	background-image: url('../images/blacktiles.jpg');
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 0;
+}
+
+table{
+	background: #fff;
+	margin: 5% auto;
+	border: 0.5em solid #000;
+	border-collapse: collapse;
+}
+
+th{
+	text-align:center;
+	background-color:#000000;
+	background-image: url("../images/stainless.jpg");
+	color: #000;
+	font: 1.5em cambria;
+	padding: 3%;
+	text-shadow: 0.05em 0.05em #09c;
+}
+
+td{
+	margin: auto;
+	padding: 1.0em;
+	font: 1.2em cambria;
+}
+	
+form{
+	width: 30.5%;
+	height: 40%;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.0em;
+	font-style: italic;
+	line-height: 1.5em;
+	font-weight: bold;
+	color: #09C;
+	border: 0.5em solid #000;
+	background-image: url("../images/stainless.jpg");
+	padding: 1.0em;
+	margin: auto;
+}
+
+input{
+	width: 100%;
+	display:block;
+	border: 0.1em solid #999;
+	height: 25px;
+	margin: auto;
+}
+	
+input:focus{
+	background:yellow;
+}	
+
+#term{
+	font-size: 0.5em;
+}
+
+caption{
+	font: 1.5em cambria;
+}
+
+footer{
+	width: 78.125%;
+	background-color: navy;
+	margin: auto;
+	padding: 1.95312%;
 	clear: both;
+	margin-top: 0;
+	overflow: hidden;
+	color: white;
 }
 
-
-input.groovybutton{
-   font-size:1.000em;
-   font-family:Arial,sans-serif;
-   height:46px;
-   background-color:#779999;
-   background-image:url(back03.gif);
-   border-style:solid;
-   border-color:#DDDDDD;
-   border-width:0.1em;
-   border-radius: 1em 4em 1em 4em;
+#up{
+	float: right;
 }
-
 
 
 /* =Media Queries==============================================================*/
 
-	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media screen and(min-width:768px)and(max-width:1023px){ 
-	.intro-paragraph{
-		font-size:1.000em;
-	}
-	.career{
-		float:none;
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width:768px) and (max-width:1023px){ 
+	
+.intro-paragraph{
+	font-size:1.000em;
+	background-color: red;
 	}
 	.gallery li {
-		margin: 0 auto;
+	margin: 1.95312% 3.90625% auto;
 	}
 }
 
-	/* mobile landscape size to tablet portrait (devices and browsers) */
-	@media only screen and(min-width: 480px)and(max-width:767px){  
-	.career{
-		float:left;
+/* mobile landscape size to tablet portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width:767px){  
+
+.intro-paragraph{
+	font-size:1.000em;
+	background-color: pink;
 		}
-	.intro-paragraph{
-		font-size:1.000em;
+section{
+	background-image: none;
 		}
-	.gallery li {
-		float: none;
-	
-	}
-	
 }
 
-	/* mobile portrait size to mobile landscape size (devices and browsers) */
-	@media only screen and(max-width:479px) */{ 
-	.career{
-		display:none;
-		}
-	.gallery li{
-		display: none;
-	}
-	section{
-		background-image: none;
-	}
+/* mobile portrait size to mobile landscape size (devices and browsers) */
+@media only screen and (max-width:479px){ 
 	
-} 
+.intro-paragraph{
+	font: 1.0em cambria;
+	background-color: purple;
+}
+.gallery li{
+	display: none;
+}
+section{
+	background-image: none;
+}
+h2{
+	font: 1.5em cambria;
+	Float: left;
+	clear:both;
+    }
+}
+
+
+	 

@@ -10,42 +10,39 @@
 		rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Graduate' rel='stylesheet' type='text/css'>
 	</head>
-	
 	<body>	
 		<h1><a id="home">Resume Helper</a></h1>
-		<header>
+	<header>
 <!-- Main Site Navigation -->
-			<nav>
-				<ul class="main-nav">
-						<li><a class="nav" href="#index.html">Home</a></li>
-						<li><a class="nav" href="#about">About</a></li>
-						<li><a class="nav" href="#sign-up">Sign-up</a></li>
-					</ul>
-				</nav>
+		<nav>
+			<ul class="main-nav">
+				<li><a class="nav" href="#index.html">Home</a></li>
+				<li><a class="nav" href="#about">About</a></li>
+				<li><a class="nav" href="#sign-up">Sign-up</a></li>
+			</ul>
+		</nav>
 			
-				<article class="intro-paragraph">
+		<article class="intro-paragraph">
 					
-						<h2>Why is a Resume Important?</h2>
-					
-			    
-					<p class="intro">A resume is your
-					 own personal document that outlines your past work experience, your
-					 past education, your past achievements, as well as your current 
-					 objectives.<em> Resumes tell an employer a great deal about you.</em> 
-					 Where you have been, where you are and where you are headed. However,
-				 	 the story must be told quickly and clearly. The purpose of the resume 
-				 	 is to get the interview.<span> After reading it, employers should want to 
-				 	 get to know you better.</span>Your resume is your friend, if properly prepared.</p>
-					<aside><img class="career" src="images/career.jpg" width="249" height="202" 
-					alt="careerletters" title="Career"></aside>
+			<h2>Why is a Resume Important?</h2>
+							    
+			<p class="intro">A resume is your own personal document that outlines your past 
+			work experience, your past education, your past achievements, as well as your 
+			current objectives.<em> Resumes tell an employer a great deal about you.</em> 
+			Where you have been, where you are and where you are headed. However,
+			the story must be told quickly and clearly. The purpose of the resume 
+			is to get the interview.<span> After reading it, employers should want to 
+			get to know you better.</span>Your resume is your friend, if properly prepared.</p>
+			<aside><img class="career" src="images/career.jpg" width="249" height="202" 
+			alt="careerletters" title="Career"></aside>
 				
-				</article>
-			</header>
+		</article>
+	</header>
 	
-		<section>
-			<a id="about"></a>
-			<h2>About Resume Helper</h2>
-			<div class="line-separator"></div>
+	<section>
+		<a id="about"></a>
+		<h2>About Resume Helper</h2>
+		<div class="line-separator"></div>
 			<ol class="about">
 				<li><strong>Resume Helper</strong> gives people the opportunity to showcase their skills
 				 and abilities to maximun.</li>
@@ -56,30 +53,84 @@
 				<li><strong>Resume helper</strong> is here to guide and educate about the importance of
 				an outstanding resume. </li>
 			</ol>
-				<ul class="gallery">
-				<li><img src="images/resume1.jpg" title="Update your Resume" width="203" height="248"></li>
-				<li><img src="images/resume2.jpg" title="Have copies of resume" width="275" height="183"></li>
-				<li><img src="images/wheretogo.jpg" title="Know what path to take" width="169" height="154"></li>
-				<li><img src="images/ok.jpg" title="Make sure your resume is perfect" width="181" height="144"></li>
-		</ul>
-		
-		</section>
-		
-	
-	
 			
-		<div id="sign-up_form">
+			<ul class="gallery">
+				<li><a href="images/resume1.jpg"><img src="images/resume1.jpg" title="Update your Resume" width="203" height="248"></a></li>
+				<li><a href="images/resume2.jpg"><img src="images/resume2.jpg" title="Have copies of resume" width="275" height="183"></a></li>
+				<li><a href="images/wheretogo.jpg"><img src="images/wheretogo.jpg" title="Know what path to take" width="169" height="154"></a></li>
+				<li><a href="images/ok.jpg"><img src="images/ok.jpg" title="Make sure your resume is perfect" width="181" height="144"></a></li>
+			</ul>
+		</section>	
+		
+		<section id="sign-up_form">
+			<a id="sign-up"></a>
+			<h2>Sign-Up</h2>		
+			<div class="line-separator"></div>
+			<Table>
+			<caption>Membership Plans</caption>
+				<tr>
+					<th>Free Sign-up $0.00</th>
+					<th>V.I.P $1.00</th>
+				</tr>
+				<tr>
+					<td>Access to Resume Templates</td>
+					<td>Access to Resume Templates and Samples</td>
+				</tr>
+				<tr>
+					<td>Learn helpful tips</td>
+					<td> Access to Resume Builder software</td>
+				</tr>
+				<tr>
+					<td>Access to new job postings</td>
+					<td>Upload Resume to be seen by all the hiring companies</td>	
+				</tr>
+			</table>
+		
+			<form method="get" action="form">
+				<h2>Join <strong>Resume Helper</strong> today.</h2>
 	
-				<h2><a id="sign-up">Sign-up</a></h2>
-				<a href="#home">Go up</a>
-		</div>
-				
+				<div>
+					<label for="name_first">First Name</label>
+					<input type="text" name="name_first" id="name_first"/>
+				</div>	
 		
+				<div>
+					<label for="name_last">Last Name</label>
+					<input type="text" name="name_last" id="name_last"/>
+				</div>
 		
+				<div>
+					<label for="phone">Phone</label>
+					<input type="text" name="phone" id="phone"/>
+				</div>
+		
+				<div>
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email"/>
+				</div>
+		
+				<div>
+					<label for="plan">Memberships</label>
+				</div>
+		
+				<div>
+					<select name="Plan" id="plan">
+						<option>V.I.P</option>
+						<option>Free Sign-up</option>
+					</select>
+				</div>
+				<div>
+					<input type="checkbox" name="terms" id="terms"/>
+					<label id="term" for="terms">I agree to received emails regarding special offers in the future</label>
+				</div>
+				<div id="button2" ><button type="button" name="Become a Fan" value="" class="css3button">Become a Fan</button></div>
+			</form>
+		</section>
+	
 		<footer>
+			<a id="up" href="#home">Go up</a>
 			<p>This is the end of my website &amp; All rights reserved. &copy;
 			2012</p>
 		</footer>
 	</body>
-	
 </html>
