@@ -1,0 +1,201 @@
+body{
+	max-width: 1024px;
+	font-size: 21px;
+	background-color: black;
+	background-image: url('../images/bg_leaf.jpg');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+	margin: 34px auto;
+}
+
+
+
+h1 {
+	font-family:'Signika', sans-serif;
+	margin: 0 auto;
+	color: white;
+	text-shadow: 2px 2px 6px orange;
+}
+
+nav{
+	width:987px;
+	margin: 27.5px 0px 8px 72px;
+	overflow: hidden;
+	padding: 34px 21px 5px 8px;
+	
+	
+}
+
+ul li {
+	width: 60px;
+	font: 15px cambria;
+	float: right;
+	text-align: center;
+}
+ 
+.nav {
+	text-decoration: none;
+	display: block;
+	list-style-type: circle;
+	
+} 
+
+a:hover{
+	color: green;
+	font-size: 8px;
+}
+
+a:visited{
+	color: silver;
+}
+
+a:active{
+	color: orange;
+}	
+
+
+
+.cta{
+	width: 987px;
+	height: 450px;
+	background-color: #fff;
+	padding: 34px 34px 0 34px;
+	margin: 13px 13px 55px 0;
+
+}
+
+#cta{
+	float: right;
+}
+
+ button{
+ 	float: right;
+ 	margin: 15px 5px 5px 5px;
+ 
+ }
+
+.about{
+	width: 987px;	
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	-moz-column-count: 3;
+	font: 15px cambria;
+	margin: 144px 0 144px 0;
+	padding: 89px 0 21px 0;
+	color: white;
+	opacity: 0.8;
+	
+}
+
+
+section{
+	width: 283px;
+	height: 377px;
+	border: 1px solid #000;
+	background-color: #000;
+	float: left;
+	clear: both;
+	border-radius: 34px;	
+}
+
+h4{
+	color: #fff;
+	font: 18px cambria;
+	padding: 15px;
+}
+
+h2{
+	font-family:'Signika', sans-serif;
+	text-shadow: 5px 2px 10px white;
+}
+
+.line-separator{
+	height:1px;
+	background:#717171;
+	border-bottom:0.1em solid #313030;
+}
+
+aside{
+	width: 987px;
+	font: 8px cambria;
+	clear: both;
+	margin: 0 13px 0 0;
+	padding: 0 13px 21px 34px;
+	background-color: white;
+	
+}
+
+#gallery{
+	overflow: hidden;	
+
+}
+
+#gallery li {
+	float: left;
+	width: 144px;
+	height: 144px;
+	display: block;
+	overflow: hidden;
+	border-radius: 34px;
+	padding: 21px 55px 13px 21px;
+	list-style-type: disc;
+
+}
+
+
+footer{
+	width: 987px;
+	clear: both;
+	overflow: hidden;
+	color: white;
+	background-color: orange;
+	margin: 0 13px 0 0;
+	padding: 0 13px 0 34px;
+	font: 15px helvetica;
+}
+
+#up{
+	float: right;
+}
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px Helvetica;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px orange; 
+	border-radius: .5em;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	float: right;
+ 	margin: 15px 5px 5px 5px;
+ 
+}
+.button:hover {
+	text-decoration: none;
+	font: 14px Helvetica;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+.orange {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	
+}
+.orange:hover {
+	background: #f47c20;
+	
+}
+
+.orange:active {
+	color: #fcd3a5;
+
+}	
+
+
+	 
