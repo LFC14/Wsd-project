@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale= 1">
 		<title>Loko Fash Cam</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link href='http://fonts.googleapis.com/css?family=Signika:600' rel='stylesheet' type='text/css'>
@@ -13,17 +14,25 @@
 <!-- Main Site Navigation -->
 		<nav>
 			<ul>
-				<li><a href="#index.html">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="#about">About</a></li>
-				<li><a href="#sign-up">Sign-up</a></li>
+				<li><a href="sign-up.html">Sign-up</a></li>
 			</ul>
 		</nav>
 		
 		<div id="wrapper">
 			<div class="cta">
 				<section>
-					<h4>New to Loko Fash Cam? <span>Sign-Up!</span></h4>
-					<div class="line-separator"></div>
+					<div>
+						<label for="user_id">Username or email</label>
+						<input type="text" name="user_id" id="user_id"/>
+					</div>	
+					<div>
+						<label>Password</label>
+						<input type="text" name="password" id="Password"/>
+					</div>
+					<a href="#meetlfc" class="button green">Sign in</a>
+					 <h4>New to Loko Fash Cam? <span>Sign-Up!</span></h4>
 				</section>
 		
 		    	<img id="cta" src="images/cta.jpg" alt="LFC" title="Loko Fash Cam">
@@ -62,12 +71,12 @@
 			 	and safely share them through Facebook, Twitter, email, blogs and
 			 	more.</p>		 	 
 			</article>
-		</div>
 		
-		<footer>
-			<p>This is the end of my website &amp; All rights reserved. &copy;
-			2012</p>
-			<div class="line-separator"></div>
-		</footer>
+			<footer>
+				<p>This is the end of my website &amp; All rights reserved. &copy;
+				2012</p>
+				<div class="line-separator"></div>
+			</footer>
+		</div>
 	</body>
 </html>
