@@ -23,11 +23,6 @@ h1 {
 	margin-left: 3%;
 }
 
-nav{
-	overflow: hidden;
-	margin: 3% 1% 2% 0;
-}
-
 ul li {
 	font: 100% cambria;
 	float: right;
@@ -60,6 +55,7 @@ a:active{
 	background-color: #fff;
 	overflow: hidden;
 	margin: auto;
+	padding-bottom: 5%;
 	
 }
 
@@ -114,7 +110,7 @@ th{
 	color: #000;
 	font: 1.5em cambria;
 	padding: 3%;
-	text-shadow: 0.05em 0.05em #09c;
+	text-shadow: 0.05em 0.05em orange;
 }
 
 td{
@@ -161,8 +157,8 @@ footer{
 	height: 36.816406%; /*377px*/;
 	color: white;
 	background-color: orange;
-	margin: 5% 4% 0 0;
-	padding: 2% 2% 5% 0;
+	margin: 5% 2% 0 2%;
+	padding: 2% 0 5% 0;
 	font: 100% helvetica; /*16px*/
 	text-align: center;
 	float:left;
@@ -263,7 +259,7 @@ article{
 }
 
 table{
-	margin: 5% 19% 0 2%;
+	margin: 5% 21% 0 2%;
 }
 
 .button{
